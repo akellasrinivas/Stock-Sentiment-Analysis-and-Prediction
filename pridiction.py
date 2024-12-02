@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 
 # Load the saved model
-model = load_model('best_model.h5')
+model = load_model('model.h5')
 
 # Define function to predict stock movement
 def predict_stock_movement(sentiment_score):
