@@ -7,4 +7,5 @@ yfinance
 streamlit
 telethon
 python-dotenv
-reportlab Pillow
+reportlab 
+Pillow
