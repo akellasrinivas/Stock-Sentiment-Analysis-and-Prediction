@@ -24,6 +24,26 @@ This project enables users to analyze stock sentiment based on messages from var
 - **Telegram API**: Integrated with Telegram to fetch messages from predefined channels related to stock discussions.
 - **Pandas**: Used for data manipulation and handling predictions.
 
+## Functionality
+1. Stock Selection and Input
+- **Predefined Stock List**: Select from a list of predefined stocks or input your own stock name and ticker symbol.
+- **Editable Inputs**: Manually enter the stock name and ticker to perform custom analysis.
+2. Telegram Data Scraping
+- Scrapes messages from predefined Telegram channels related to stocks using the Telegram API.
+- Filters messages containing relevant stock discussions based on the stock name.
+- Cleans and processes the text to remove irrelevant content like hashtags and URLs.
+3. Sentiment Analysis and Prediction
+- **Sentiment Classification**: The system uses a pre-trained deep learning model to predict the sentiment (positive, neutral, negative) of each message.
+- **Stock Movement Prediction**: The sentiment of each message is mapped to a stock movement prediction (Up, Neutral, Down).
+- **Confidence Levels**: The sentiment predictions come with confidence levels, providing a measure of how certain the model is about the sentiment.
+4. Visualization
+- **Predicted Stock Movement Plot**: Interactive scatter plot showing the predicted stock movement (Up, Neutral, Down) over time.
+- **Sentiment Distribution**: Pie chart visualizing the distribution of sentiments (Negative, Neutral, Positive) for the messages analyzed.
+- **Stock Price Data**: Historical stock price data for the selected stock is fetched and plotted alongside the predicted stock movements for comparison.
+5. Stock Price Data Fetching
+- **yfinance Integration**: Fetches historical stock price data for the selected stock ticker.
+- **Matplotlib Plot**: Plots the predicted stock movement against the actual stock price data.
+
 ## Installation
 
 1. Clone the repository:
@@ -47,25 +67,6 @@ TELEGRAM_API_HASH=your_api_hash_here
 streamlit run app.py
 ```
 
-## Functionality
-1. Stock Selection and Input
-- **Predefined Stock List**: Select from a list of predefined stocks or input your own stock name and ticker symbol.
-- **Editable Inputs**: Manually enter the stock name and ticker to perform custom analysis.
-2. Telegram Data Scraping
-- Scrapes messages from predefined Telegram channels related to stocks using the Telegram API.
-- Filters messages containing relevant stock discussions based on the stock name.
-- Cleans and processes the text to remove irrelevant content like hashtags and URLs.
-3. Sentiment Analysis and Prediction
-- **Sentiment Classification**: The system uses a pre-trained deep learning model to predict the sentiment (positive, neutral, negative) of each message.
-- **Stock Movement Prediction**: The sentiment of each message is mapped to a stock movement prediction (Up, Neutral, Down).
-- **Confidence Levels**: The sentiment predictions come with confidence levels, providing a measure of how certain the model is about the sentiment.
-4. Visualization
-- **Predicted Stock Movement Plot**: Interactive scatter plot showing the predicted stock movement (Up, Neutral, Down) over time.
-- **Sentiment Distribution**: Pie chart visualizing the distribution of sentiments (Negative, Neutral, Positive) for the messages analyzed.
-- **Stock Price Data**: Historical stock price data for the selected stock is fetched and plotted alongside the predicted stock movements for comparison.
-5. Stock Price Data Fetching
-- **yfinance Integration**: Fetches historical stock price data for the selected stock ticker.
-- **Matplotlib Plot**: Plots the predicted stock movement against the actual stock price data.
 
 ## Authors
 - Akella Srinivas
