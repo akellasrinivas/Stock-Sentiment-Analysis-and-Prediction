@@ -47,7 +47,7 @@ TELEGRAM_API_HASH=your_api_hash_here
 streamlit run app.py
 ```
 
-##Functionality
+## Functionality
 1. Stock Selection and Input
 Predefined Stock List: Select from a list of predefined stocks or input your own stock name and ticker symbol.
 Editable Inputs: Manually enter the stock name and ticker to perform custom analysis.
