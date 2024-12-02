@@ -66,3 +66,21 @@ streamlit run app.py
 5. Stock Price Data Fetching
 - **yfinance Integration**: Fetches historical stock price data for the selected stock ticker.
 - **Matplotlib Plot**: Plots the predicted stock movement against the actual stock price data.
+
+## Authors
+- Akella Srinivas
+
+## Contribution
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
+
+
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contact
+
+For any inquiries or further information, please contact [akells srinivas] via email at [akellasrinivas322@gmail.com].
+
