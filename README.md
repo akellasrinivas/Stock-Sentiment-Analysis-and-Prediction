@@ -4,7 +4,7 @@ This project enables users to analyze stock sentiment based on messages from var
 
 ## Web UI
 
-![Web UI](images/Screenshot%2024-12-02%145933.png)
+![Web UI](images/Screenshot%202024-12-02%20145933.png)
 
 ## Features
 
