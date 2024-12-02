@@ -33,7 +33,7 @@ stock_name = st.text_input('Enter Stock Name (e.g., nifty)', selected_stock)
 stock_ticker_input = st.text_input('Enter Stock Ticker (e.g., ^NSEI)', stock_ticker)
 
 # Load your model
-model = load_model('model.h5')
+model = load_model('best1_model.h5')
 
 # Manually compile the model with metrics if necessary
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=[Accuracy(), AUC()])
