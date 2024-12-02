@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+plotly
+tensorflow
+yfinance
+streamlit
+telethon
+python-dotenv
+reportlab Pillow
