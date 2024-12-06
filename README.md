@@ -2,6 +2,11 @@
 
 This project enables users to analyze stock sentiment based on messages from various Telegram channels and predict stock movements using sentiment analysis. The system fetches data, performs sentiment analysis on the messages, and provides visual insights such as predicted stock movement and sentiment distribution. It also integrates stock price data from Yahoo Finance for additional insights.
 
+## Evaluation Metrics
+- **Accuracy**: 0.80
+- **F1 Score**: 0.73
+- **Precision**: 0.70
+
 ## Web UI
 
 ![Web UI](images/Screenshot%202024-12-02%20145933.png)
