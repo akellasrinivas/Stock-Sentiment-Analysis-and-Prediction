@@ -12,6 +12,11 @@ This project enables users to analyze stock sentiment based on messages from var
 
 ![Web UI](images/Screenshot%202024-12-02%20145933.png)
 
+## Demo
+
+Access the deployed application here: [Stock Sentiment Analysis and Prediction](https://stock-sentiment-analysis-and-prediction.streamlit.app/)
+
+
 ## Features
 
 - **Stock Sentiment Analysis**: Analyzes sentiment from messages related to stocks found in predefined Telegram channels.
