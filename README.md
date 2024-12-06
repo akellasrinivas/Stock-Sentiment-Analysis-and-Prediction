@@ -6,7 +6,7 @@ This project enables users to analyze stock sentiment based on messages from var
 - **Accuracy**: 80%
 - **F1 Score**: 73%
 - **Precision**: 70%
-- **AUC**:95%
+- **AUC(Area Under the Curve)**:95%
 
 ## Web UI
 
