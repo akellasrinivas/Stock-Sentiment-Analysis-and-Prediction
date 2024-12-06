@@ -14,7 +14,7 @@ This project enables users to analyze stock sentiment based on messages from var
 
 ## Demo
 
-Access the deployed application here: [Stock Sentiment Analysis and Prediction](https://stock-sentiment-analysis-and-prediction.streamlit.app/)
+Access the application here: [Stock Sentiment Analysis and Prediction](https://stock-sentiment-analysis-and-prediction.streamlit.app/)
 
 
 ## Features
